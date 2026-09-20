@@ -26,7 +26,6 @@ Campus Flow is a centralized college platform for managing fests, cultural event
 - **Authentication:** Spring Security with JWT access and refresh tokens
 - **Database migrations:** Flyway
 - **File storage:** Object storage for event images, documents, and certificates
-- **Payments:** Payment gateway integration with server-side webhook verification
 - **API documentation:** OpenAPI / Swagger
 - **Testing:** JUnit, Mockito
 ## Implemented Application Stack
