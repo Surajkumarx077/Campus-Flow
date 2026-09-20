@@ -1,0 +1,22 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: campus-flow-mysql
+    environment:
+      MYSQL_DATABASE: campus_flow
+      MYSQL_USER: campus_flow
+      MYSQL_PASSWORD: campus_flow
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    volumes:
+      - campus-flow-mysql:/var/lib/mysql
+
+  redis:
+    image: redis:7-alpine
+    container_name: campus-flow-redis
+    ports:
+      - "6379:6379"
+
+volumes:
+  campus-flow-mysql:
