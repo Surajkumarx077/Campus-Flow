@@ -259,24 +259,6 @@ team_members
 waitlist_entries
 ```
 
-### Important Relationships
-
-```text
-User M---M Role through user_roles
-Role M---M Permission through role_permissions
-User 1---1 StudentProfile
-Event 1---M Registration
-Registration 1---1 EventPass
-Event 1---M Announcement through the announcement API
-Event 1---M EventSchedule
-Event 1---M Team
-Team M---M User through team_members
-Event M---M User through event_organizers
-Event 1---1 RegistrationForm
-RegistrationForm 1---M RegistrationFormField
-Registration 1---M RegistrationAnswer
-Event 1---M WaitlistEntry
-```
 
 ### Data Rules
 
