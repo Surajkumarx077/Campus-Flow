@@ -444,6 +444,3 @@ The frontend payment result will never be trusted by itself. The backend will co
 - Category-wise participation
 - Volunteer participation
 - Registration conversion
-
-Initial analytics can use MySQL reporting queries. Redis, a reporting database, or a data warehouse can be added when traffic requires it.
-
